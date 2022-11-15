@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
     "env": {
         "browser": true,
@@ -17,5 +19,10 @@ module.exports = {
         "react"
     ],
     "rules": {
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
     }
 }

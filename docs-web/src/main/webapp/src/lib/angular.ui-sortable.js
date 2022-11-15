@@ -274,7 +274,7 @@
                 $timeout(function() {
                   // ensure that the jquery-ui-sortable widget instance
                   // is still bound to the directive's element
-                  if (!!getSortableWidgetInstance(element)) {
+                  if (getSortableWidgetInstance(element)) {
                     element.sortable('refresh');
                   }
                 }, 0, false);
@@ -516,7 +516,7 @@
                 // ensure that the jquery-ui-sortable widget instance
                 // is still bound to the directive's element
                 var sortableWidgetInstance = getSortableWidgetInstance(element);
-                if (!!sortableWidgetInstance) {
+                if (sortableWidgetInstance) {
                   var optsDiff = patchUISortableOptions(newVal, oldVal, sortableWidgetInstance);
 
                   if (optsDiff) {

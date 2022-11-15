@@ -4,7 +4,8 @@
   "description": "<h3 align=\"center\">   <img src=\"https://teedy.io/img/github-title.png\" alt=\"Teedy\" width=500 /> </h3>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
