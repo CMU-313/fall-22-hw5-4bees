@@ -790,7 +790,7 @@ var qrcode = function() {
             lostPoint += (3 + sameCount - 5);
           }
         }
-      };
+      }
 
       // LEVEL2
 
@@ -975,7 +975,7 @@ var qrcode = function() {
     };
 
     return _this;
-  };
+  }
 
   //---------------------------------------------------------------------
   // QRRSBlock
